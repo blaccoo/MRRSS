@@ -1,0 +1,490 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { Box, Button, Grid } from "@mui/material";
+import Swiper1 from "../components/Swiper1"
+
+function Home() {
+  return (
+    <>
+      <div>
+        <Navbar />
+
+        <section id="ai-intro">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <h4 className="mineres-sm-heading mb-3">
+                Join the Future of Mineral Trade →
+                </h4>
+                <h1 className="mineres-mainHeroSection-heading mb-4 f-700">
+                  Mineres
+                </h1>
+                <p className="mineres-detail-info">
+                The world runs on metals from smartphones and electric vehicles to satellites and AI infrastructure. Yet, the metal trade remains outdated, opaque, and exclusionary especially for small-scale miners in emerging markets.
+
+Mineres is transforming this industry with a decentralized, crypto-powered platform built to connect miners directly with global buyers, enable instant cross-border transactions, and reward ethical mining.
+
+
+                </p>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="mineres-video-box">
+           <Box
+                    className="various fancybox"
+                    data-fancybox=""
+                    data-type="video"
+                    data-fancybox-type="iframe"
+                    sx={{
+                      backgroundColor: "#060610",
+              
+                   
+                      borderRadius: {xs:"3rem", sm:"3rem"},
+                      border: "1px solid rgba(255,255,255,.09)",
+                      boxShadow: "0 0 5px #fff",
+                    }}
+                  >
+                    <Box >
+                    <img src="assets/n1.png" style={{width:"100%",height:"100%", borderRadius:"3rem"}}  />
+                      
+                    </Box>
+            </Box>
+                  {/*
+                        <a data-fancybox data-type="video" href="assets/videos/CharacterGPT.mp4">
+                            <img src="assets/img/video.svg" class="w-100" alt="">
+                        </a>
+  */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gener-age">
+          <div className="container">
+            <div className="content-bg content-spacer">
+              <div className="row align-items-center">
+                <div className="col-xl-4 col-lg-4 col-md-12 co-sm-12 col-12">
+                  <h1 className="mineres-xl-heading">Why Mineres?</h1>
+                </div>
+                <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                  <p className="mineres-detail-info m-0">
+                  Global Trade. Local Empowerment.
+                  Mineres is more than just a marketplace. it’s a mission to bridge the gap between underrepresented miners and global demand, using the power of blockchain.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tolstoy">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="flex-wrapper">
+                  <div className="mineres-text-box">
+                    <h1 className="mineres-main-heading mb-0">
+                      Mineres{" "}
+                    </h1>
+                    <h1 className="mineres-primary-heading mb-4">
+                     and Web3 Technologies 
+                    </h1>
+                    <p className="mineres-detail-info mb-4">
+                    Mineres harnesses the power of Web3 technologies to revolutionize the global mineral trade, particularly in emerging markets, by replacing outdated, centralized systems with decentralized, trustless solutions. Through blockchain and smart contracts, Mineres eliminates unnecessary intermediaries, offering miners, buyers, and communities direct access and control over their transactions. These smart contracts automatically enforce agreements and hold funds in escrow until confirmed delivery, ensuring secure, transparent, and fair trade without relying on third parties.
+                    </p>
+               
+                  </div>
+          
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" style={{paddingInline:"3r3m"}}>
+
+             <Swiper1 />
+             
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="gener-age">
+          <div className="container">
+            <div className="content-bg content-spacer">
+              <div className="row align-items-center">
+                <div className="col-xl-4 col-lg-4 col-md-12 co-sm-12 col-12">
+                  <h1 className="mineres-xl-heading">
+                  Why Mineres Decentralized Marketplace?
+                  </h1>
+                </div>
+                <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                  <p className="mineres-detail-info m-0">
+                  Mineres' decentralized marketplace transforms the way metals are traded by eliminating middlemen, reducing costs, and fostering direct connections between miners, wholesalers, and industrial buyers across the globe. By leveraging blockchain technology, it ensures transparency, trust, and efficiency in every transaction, giving control back to the participants rather than centralized authorities. This model not only accelerates cross-border trade but also empowers small-scale miners in emerging markets to access global demand, get fair pricing, and build verified reputations, all while promoting ethical and sustainable mining practices through on-chain verification and incentives.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+   
+   
+
+
+
+
+
+        <section id="our-vision">
+          <div className="container">
+            <h1 className="mineres-main-heading text-center mb-4">
+            A decentralized Marketplace powered by Smart Contracts and Blockchain technology
+            </h1>
+          
+            <div className="mineres-primary-text px-lg-5 font-20 d-block">
+            
+
+              <p className="mineres-detail-info px-lg-5" style={{textAlign:"center",}}>
+              A decentralized marketplace powered by smart contracts, Mineres ensures that every transaction is secure, transparent, and automated without relying on intermediaries or centralized control. Smart contracts act as self-executing agreements that hold funds in escrow, verify delivery, and release payments only when conditions are met, eliminating fraud and delays. This trustless system empowers miners and buyers to trade directly, confidently, and efficiently across borders, fostering a more inclusive, ethical, and transparent global metal trade.
+              </p>
+            </div>
+
+            <Box sx={{display:{xs:"none", sm:"block"}}}>
+            <div className="our-vision-slider slick-initialized slick-slider slick-dotted">
+              <div className="slick-list draggable">
+                <div
+                  className="slick-track"
+                  style={{
+                    opacity: 1,
+                    width: 990,
+                    transform: "translate3d(0px, 0px, 0px)",
+                    marginTop:"2rem"
+                  }}
+                >
+                  <div
+                    className="vision-box text-center slick-slide slick-current slick-active"
+                    tabIndex={0}
+                    style={{ width: 330 }}
+                    data-slick-index={0}
+                    aria-hidden="false"
+                    role="tabpanel"
+                    id="slick-slide20"
+                    aria-describedby="slick-slide-control20"
+                  >
+                    <div className="vision-img-box">
+                    <img src="favicon.png" className="mx-auto" style={{width:"80px", height:"80px"}}/>
+                    </div>
+                    <h4 className="vision-title mt-4 mb-4"> Trustless Transactions</h4>
+                    <p className="vision-info mb-5">
+                    Smart contracts eliminate the need for intermediaries by automatically executing agreements when predefined conditions are met. This removes the risk of fraud, reduces disputes, and builds trust between unknown parties.
+                    </p>
+             
+                  </div>
+                  <div
+                    className="vision-box text-center slick-slide"
+                    tabIndex={-1}
+                    style={{ width: 330 }}
+                    data-slick-index={1}
+                    aria-hidden="true"
+                    role="tabpanel"
+                    id="slick-slide21"
+                    aria-describedby="slick-slide-control21"
+                  >
+                    <div className="vision-img-box">
+                    <img src="favicon.png" className="mx-auto" style={{width:"80px", height:"80px"}}/>
+                    </div>
+                    <h4 className="vision-title mt-4 mb-4"> Faster and Cheaper Cross-Border Payments</h4>
+                    <p className="vision-info mb-5">
+                    Traditional payment systems in mineral trading are slow and costly, especially in emerging markets. With crypto and smart contracts, Mineres enables near-instant transactions with minimal fees, streamlining global trade.
+
+
+                    </p>
+           
+                  </div>
+                  <div
+                    className="vision-box text-center slick-slide"
+                    tabIndex={-1}
+                    style={{ width: 330 , }}
+                    data-slick-index={2}
+                    aria-hidden="true"
+                    role="tabpanel"
+                    id="slick-slide22"
+                    aria-describedby="slick-slide-control22"
+                  >
+                    <div className="vision-img-box">
+                    <img src="favicon.png" className="mx-auto" style={{width:"80px", height:"80px"}}/>
+                    </div>
+                    <h4 className="vision-title mt-4 mb-4">  Transparent and Verifiable Supply Chains</h4>
+                    <p className="vision-info mb-5">
+                      {" "}
+                    Every transaction and activity on the platform is recorded on the blockchain, providing full transparency and traceability. Buyers can verify the origin of metals and ethical mining practices through Miner NFTs, ensuring accountability and responsible sourcing.
+                    </p>
+                 
+                  </div>
+                </div>
+              </div>
+         
+            </div>
+            </Box>
+
+            <Box sx={{display:{xs:"block", sm:"none"}}}>
+            <div className="our-vision-slider slick-initialized slick-slider slick-dotted">
+              <div className="slick-list draggable">
+                <Box
+                   sx={{display:"flex", flexDirection:"column", alignItems:"center", }}
+                >
+                  <div
+                    className="vision-box text-center slick-slide slick-current slick-active"
+                    tabIndex={0}
+               
+                   style={{ width: 330, marginBottom:"1rem" }}
+                    data-slick-index={0}
+                    aria-hidden="false"
+                    role="tabpanel"
+                    id="slick-slide20"
+                    aria-describedby="slick-slide-control20"
+                  >
+                      <div className="vision-img-box">
+                    <img src="favicon.png" className="mx-auto" style={{width:"80px", height:"80px"}}/>
+                    </div>
+                    <h4 className="vision-title mt-4 mb-4">Smart Contract trading</h4>
+                    <p className="vision-info mb-5">
+                    Mineres utilizes state-of-the-art machine learning models, including static and dynamic analysis, natural language processing (NLP), and vulnerability detection algorithms, to perform in-depth trades of smart contracts. We evaluate them for vulnerabilities, code quality, and security risks. Detailed trade reports are provided to developers, helping them identify and resolve issues, ultimately enhancing the security of their smart contracts.
+                    </p>
+             
+                  </div>
+                  <div
+                    className="vision-box text-center slick-slide"
+                    tabIndex={-1}
+                    style={{ width: 330 , marginBottom:"1rem"}}
+                    data-slick-index={1}
+                    aria-hidden="true"
+                    role="tabpanel"
+                    id="slick-slide21"
+                    aria-describedby="slick-slide-control21"
+                  >
+                    <div className="vision-img-box">
+                    <img src="favicon.png" className="mx-auto" style={{width:"80px", height:"80px"}}/>
+                    </div>
+                    <h4 className="vision-title mt-4 mb-4">Governance Protocol Scoring</h4>
+                    <p className="vision-info mb-5">
+                    Our platform employs machine learning models like decision trees and Bayesian networks to evaluate and score governance protocols in blockchain networks. Key factors such as decentralization, governance token distribution, and decision-making processes are analyzed. We provide actionable recommendations to improve governance, ensuring robust and trustworthy blockchain governance.
+                    </p>
+           
+                  </div>
+                  <div
+                    className="vision-box text-center slick-slide"
+                    tabIndex={-1}
+                    style={{ width: 330 , marginBottom:"1rem"}}
+                    data-slick-index={2}
+                    aria-hidden="true"
+                    role="tabpanel"
+                    id="slick-slide22"
+                    aria-describedby="slick-slide-control22"
+                  >
+                    <div className="vision-img-box">
+                      <img src="favicon.png" className="mx-auto" style={{width:"80px", height:"80px", padding:"0px" }}/>
+                    </div>
+                    <h4 className="vision-title mt-4 mb-4">Encryption</h4>
+                    <p className="vision-info mb-5">
+                      {" "}
+                      Encryption is crucial for securing data and ensuring privacy within a decentralized marketplace. By encrypting sensitive information such as user identities, transaction details, and communication channels, the marketplace can prevent unauthorized access and protect user data. Encryption techniques can be applied at various levels, including data storage, communication channels, and user authentication, to safeguard sensitive information.{" "}
+                    </p>
+                 
+                  </div>
+                </Box>
+              </div>
+         
+            </div>
+            </Box>
+    
+          </div>
+        </section>
+
+
+
+   
+
+        <section id="tolstoys-beta">
+          <div className="container">
+            <h1 className="mineres-main-heading text-center mb-4">
+              The Mineres Token
+            </h1>
+            <div className="mineres-primary-text px-lg-5 font-20 d-block">
+              <p className="mineres-detail-info  px-lg-5 mb-0 text-center">
+              The utility token of the platform serves various functions that enable participants to access platform features, and contribute to the ecosystem
+              </p>
+            </div>
+          <Box  sx={{ marginTop:"3rem"}}>
+            <div className="beta-slider slick-initialized slick-slider slick-dotted">
+              {/*
+            <div class="beta-box-wrapper">
+                <div class="beta-box-inner-img text-center">
+                    <img src="assets/img/phased.svg">
+                </div>
+                <h1 class="beta-box-title text-center mt-4 mb-2">Phased Deployment</h1>
+                <div class="beta-detail-box">
+                    <p class="mineres-detail-info text-center">Alethea AI will release its AI Models progressively over time with taking into considerations the learnings and developments during the initial releases. These models can be used by anyone, including the AI Providers of the iNFT Protocol.</p>
+                </div>
+            </div>
+  */}
+              <div className="slick-list draggable">
+                <Box
+                  className="slick-track"
+              sx={{display:"flex", flexDirection:{xs:"column", sm:"row"}, alignItems:"center"}}
+                >
+                  <div
+                    className="beta-box-wrapper slick-slide slick-current slick-active"
+                    tabIndex={0}
+                    style={{ width:"330px", height:"500px", marginBlockStart:"1rem"  }}
+                    data-slick-index={0}
+                    aria-hidden="false"
+                    role="tabpanel"
+                    id="slick-slide40"
+                    aria-describedby="slick-slide-control40"
+                  >
+                    <div className="beta-box-inner-img text-center">
+                      <img src="assets/img//mxl1.png"  style={{width:"100px", height:"100px", marginBlock:"1rem"}}/>
+                    </div>
+                    <h1 className="beta-box-title text-center mt-4 mb-2">
+                      {" "}
+                      Voting Rights
+                    </h1>
+                    <div className="beta-detail-box">
+                      <p className="mineres-detail-info  px-2 text-center">
+                      Governance token holders can participate in decision-making processes, such as protocol upgrades, platform improvements, or changes to project parameters. Each token held represents a voting stake, allowing holders to influence the project's direction.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="beta-box-wrapper slick-slide"
+                    tabIndex={-1}
+                    style={{ width:"330px", height:"500px", marginBlock:"1rem"   }}
+                    data-slick-index={1}
+                    aria-hidden="true"
+                    role="tabpanel"
+                    id="slick-slide41"
+                    aria-describedby="slick-slide-control41"
+                  >
+                    <div className="beta-box-inner-img text-center">
+                      <img src="assets/img/mxl2.png" style={{width:"100px", height:"100px"}}/>
+                    </div>
+                    <h1 className="beta-box-title text-center mt-4 mb-2">
+                    Fee Payments
+                    </h1>
+                    <div className="beta-detail-box">
+                      <p className="mineres-detail-info  px-2 text-center">
+                      Governance token holders can use the token to pay for various fees within the platform, such as trading fees, assessment fees, or service charges. This streamlines the use of the token and ensures that it plays a central role in the project's ecosystem.{" "}
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="beta-box-wrapper slick-slide"
+                    tabIndex={-1}
+                    style={{ width:"330px", height:"500px"  }}
+                    data-slick-index={2}
+                    aria-hidden="true"
+                    role="tabpanel"
+                    id="slick-slide42"
+                    aria-describedby="slick-slide-control42"
+                  >
+                    <div className="beta-box-inner-img text-center">
+                      <img src="assets/img/mxl3.png" style={{width:"100px", height:"100px"}}/>
+                    </div>
+                    <h1 className="beta-box-title text-center mt-4 mb-2">
+                      {" "}
+                      Ecosystem Expansion
+                    </h1>
+                    <div className="beta-detail-box">
+                      <p className="mineres-detail-info  px-2 text-center">
+                      The project can use the governance token to incentivize partnerships and integrations with other blockchain projects, expanding the ecosystem's reach and utility.{" "}
+                      </p>
+                    </div>
+                  </div>
+
+                  
+                </Box>
+              </div>
+         
+            </div>
+         
+            </Box>
+          
+          </div>
+        </section>
+       
+
+        <section id="backed-by">
+          <div className="container">
+            <div style={{display:"flex", flexDirection:"row", alignItems:"center", justifyContent:"center", width:"100%", color:"#fff", marginBottom:"1rem", fontWeight:"1200"}} >
+              <h3 >Our Partners</h3>
+            </div>
+       <Box sx={{backgroundColor:"#fff", padding:"5rem 3rem", borderRadius:"1.5rem", display:"flex", flexDirection:{xs:"column", sm:"row"}, flexWrap:"wrap", columnGap:{sm:"5rem"}, rowGap:"4rem", alignItems:{xs:"center"}}}>
+         
+
+
+           <img src="assets/img/25.png" style={{}} className="img1" />
+           <img src="assets/img/42.png" style={{width:"100px",height:"100px"}} className="img1" />
+           <img src="assets/img/43.png" style={{width:"100px",height:"100px"}} className="img1" />
+ 
+          
+           <img src="assets/img/01.png" style={{}} className="img1" />
+           <img src="assets/img/02.png" style={{}} className="img1" />
+           <img src="assets/img/03.png" style={{}} className="img1" style={{width:"100px",height:"100px"}}/>
+           <img src="assets/img/25.svg" style={{width:"100px",height:"100px"}} className="img1" />
+           <img src="assets/img/26.png" style={{width:"100px",height:"100px"}} className="img1" />
+           <img src="assets/img/28.svg" style={{width:"100px",height:"100px"}} className="img1" />
+           <img src="assets/img/29.svg" style={{width:"100px",height:"100px"}} className="img1" />
+          
+    
+         
+       </Box>
+          </div>
+        </section>
+
+        <div class="container"  style={{marginBottom:"6rem"}} >
+                <div class="newsletter-inner"  >
+                    <div class="newsletter-left-wrappr" style={{width:"100%"}}>
+                        <h2>Stay Connected</h2>
+                        <p>Sign up for our newsletter to stay updated about Mineres</p>
+                    </div>
+
+                    <Box sx={{display:{xs:"none", sm:"block", width:"100%"}}}>
+                    <div class="newsletter-right-wrappr">
+                        <div class="newsletter-email-wrapper" >
+                            <form id="newsletter-form" novalidate="novalidate">
+                                <input type="email" name="email" placeholder="Enter your email address" required=""/>
+                                <button class="btn btn-black" type="submit" id="submit-button">Subscribe</button>
+
+                            </form>
+                        </div>
+                        </div>
+                    </Box>
+
+
+                    <Box sx={{display:{xs:"block", sm:"none"}}}>
+                    <div class="newsletter-right-wrappr">
+                        <div  >
+                            <form id="newsletter-form" novalidate="novalidate" >
+                                <input type="email" style={{ width:"100%", height:"50px", borderRadius:"10px", marginBottom:"2rem"}} name="email" placeholder="Enter your email address" required=""/>
+                                <button class="btn " style={{backgroundColor:"blue", width:"100%", color:"#fff", height:"50px", borderRadius:"10px"}} type="submit" id="submit-button">Subscribe</button>
+
+                            </form>
+                        </div>
+                        </div>
+                    </Box> 
+                
+
+                        
+                  
+                </div>
+            </div>
+
+
+        <div className="divider mb-5" />
+
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export default Home;

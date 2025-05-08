@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <title>Alethea AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://cdn-develop.alethea.ai/logo/new-bg.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 32px;
+            font-family: 'Exo 2';
+            flex-direction: column;
+            text-transform: uppercase;
+        }
+
+        .number {
+            font-size: 4em;
+            margin-bottom: 0;
+        }
+
+        .error-blue {
+            color: #29abe2;
+            text-align: center;
+        }
+        .error-red {
+            color: #e8000c;
+            text-align: center;
+        }
+        @media screen and (max-width:992px){
+            .number{
+                font-size: 2em;
+            }
+            section p{
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="error-blue">
+            <h1 class="number">453</h1>
+            <p>Forbidden</p>
+        </div>
+    </section>
+</body>
+
+</html>
