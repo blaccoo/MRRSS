@@ -16,12 +16,13 @@ export default function OutlinedTimeline() {
       </TimelineSeparator>
       <TimelineContent>   <div className="milestone-inner" style={{height:"500px", width:"300px"}}>
                     <div>
-                      <h4>Jan 2023</h4>
+                      <h4>Q2 2025</h4>
                  <ul  style={{listStyleType:"circle", color:"#fff", fontSize:"12px",textAlign:"center"}}>
-                  <li  style={{marginBottom:"1rem"}}>Define Project Goals: Clearly identify the objectives and vision of the secure web3 space platform. Determine the desired features, functionality, and target audience.</li>
-                <li style={{marginBottom:"1rem"}}>Conduct Market Research: Analyze the existing data exchange landscape, identify competitors, and assess market needs and opportunities. Understand the challenges and pain points faced by users and data providers.</li>
-                <li style={{marginBottom:"1rem"}}>Define Token Economy: Design the token model that will be used for governance and transaction fees within the platform. Determine the token distribution mechanism, utility, and incentives for participants.</li>
-                <li style={{marginBottom:"1rem"}}>Technical Feasibility Study: Assess the feasibility of implementing the desired features using ML models and Solidity smart contracts. Identify any technical limitations, potential risks, and necessary infrastructure requirements</li>
+                  <li  style={{marginBottom:"1rem"}}>Finalize and publish the official whitepaper</li>
+                <li style={{marginBottom:"1rem"}}> Launch the MRS Token on the BNB Chain
+                </li>
+                <li style={{marginBottom:"1rem"}}> Begin MVP (Minimum Viable Product) development of the Mineres Marketplace</li>
+               
                 
                  </ul>
                     </div>
@@ -35,7 +36,7 @@ export default function OutlinedTimeline() {
       </TimelineSeparator>
       <TimelineContent>  <div className="milestone-inner" style={{height:"580px", width:"300px"}}>
                     <div>
-                      <h4>July 2023</h4>
+                      <h4>Q3 2025</h4>
                       <ul  style={{listStyleType:"circle", color:"#fff", fontSize:"12px",textAlign:"center"}}>
                   <li  style={{marginBottom:"1rem"}}>Smart Contract Development: Build the Solidity smart contracts that will govern the functionalities of the secure web3 space. Include features such as data listing, access control, payment mechanisms, and governance protocols.</li>
                 <li style={{marginBottom:"1rem"}}>ML models Integration: Integrate ML models as the underlying storage and retrieval system for the data exchange platform. Implement ML models libraries and APIs to facilitate seamless uploading, downloading, and sharing of data.</li>
