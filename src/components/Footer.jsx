@@ -36,13 +36,13 @@ function Footer() {
           <nav className="mineres-footer-social-icons">
             <ul>
               <li>
-                <Link to="https://twitter.com/Mineres" target="_blank">
+                <Link to="https://twitter.com/Mineres_MRS" target="_blank">
                   <img src="assets/img/twitter.svg" />
                 </Link>
               </li>
               <li>
                 <Link
-                  to="https://t.me/Mineresportal"
+                  to=" https://t.me/mineres_mrs"
                   target="_blank"
                
                 >
@@ -54,25 +54,25 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to=""
+                  to="#"
                   target="_blank"
                 >
                   <img src="assets/img/youtube.svg" />
                 </Link>
               </li>
               <li>
-                <Link to="" target="_blank">
+                <Link to="https://LinkedIn.com/in/mineres-foundation" target="_blank">
                   <img src="assets/img/LinkedIn.svg" />
                 </Link>
               </li>
               <li>
-                <Link to="" target="_blank">
+                <Link to="#" target="_blank">
                   <img src="assets/img/Exclude.svg" />
                 </Link>
               </li>
               <li>
                 <Link
-                  to=""
+                  to="#"
                   target="_blank"
                 >
                   <img src="assets/img/discord.svg" />
