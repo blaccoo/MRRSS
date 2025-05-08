@@ -22,7 +22,7 @@ function Footer() {
             <div className="footer-links-inner">
               <Link to="/">Home</Link>
               <Link to="/features">Features</Link>
-              <Link to="#">Prices</Link>
+              <Link to="/whitepaper">Whitepaper</Link>
             </div>
             <div className="footer-links-inner">
               <Link to="/careers">Careers</Link>

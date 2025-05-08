@@ -172,43 +172,7 @@ Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gat
           </div>
         </section>
     
-        <div class="container"  style={{marginBottom:"6rem"}} >
-                <div class="newsletter-inner"  >
-                    <div class="newsletter-left-wrappr" style={{width:"100%"}}>
-                        <h2>Stay Connected</h2>
-                        <p>Sign up for our newsletter to stay updated about Mineres</p>
-                    </div>
-
-                    <Box sx={{display:{xs:"none", sm:"block", width:"100%"}}}>
-                    <div class="newsletter-right-wrappr">
-                        <div class="newsletter-email-wrapper" >
-                            <form id="newsletter-form" novalidate="novalidate">
-                                <input type="email" name="email" placeholder="Enter your email address" required=""/>
-                                <button class="btn btn-black" type="submit" id="submit-button">Subscribe</button>
-
-                            </form>
-                        </div>
-                        </div>
-                    </Box>
-
-
-                    <Box sx={{display:{xs:"block", sm:"none"}}}>
-                    <div class="newsletter-right-wrappr">
-                        <div  >
-                            <form id="newsletter-form" novalidate="novalidate" >
-                                <input type="email" style={{ width:"100%", height:"50px", borderRadius:"10px", marginBottom:"2rem"}} name="email" placeholder="Enter your email address" required=""/>
-                                <button class="btn " style={{backgroundColor:"blue", width:"100%", color:"#fff", height:"50px", borderRadius:"10px"}} type="submit" id="submit-button">Subscribe</button>
-
-                            </form>
-                        </div>
-                        </div>
-                    </Box> 
-                
-
-                        
-                  
-                </div>
-            </div>
+ 
  
         <div className="divider mb-5" />
   <Footer />
