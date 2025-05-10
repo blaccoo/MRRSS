@@ -73,7 +73,7 @@ Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gat
 </div>
 
 <div style={{display:'flex', flexDirection:"column", justifyContent:"center", alignItems:"center",marginBlock:"5rem"}}>
-<h3 style={{ color:"#fff"}}>MRS Roadmap</h3>
+<h3 style={{ color:"#fff"}}>Roadmap and future vision </h3>
 <Roadmap2/>
 
 </div>
@@ -86,10 +86,14 @@ Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gat
 
         <section className="tech-open" style={{marginTop:"6rem"}}>
           <div className="container">
-            <div className="section-title mb-4">
-              <h3>The Mineres Team</h3>
-              <p>Building a secure web3 space and machine learning decentralized app requires a multidisciplinary team that combines technical skills, domain expertise, and business acumen. Collaboration among these professionals is crucial to create a robust and successful platform that fosters an artificial intelligence economy.</p>
-            </div>
+          <div className="section-title mb-4 center-content"> 
+  <h3>The Mineres Team</h3>
+  <p>
+    Building a secure web3 space and machine learning decentralized app requires a multidisciplinary team that combines technical skills, domain expertise, and business acumen. Collaboration among these professionals is crucial to create a robust and successful platform that fosters an artificial intelligence economy.
+  </p>
+
+</div>
+
            <Grid container  spacing={2}>
 <Grid item xs={12} sm={12}>
 <div className="tech-box" >
@@ -170,6 +174,24 @@ Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gat
               
            </Grid>
           </div>
+
+          <div className="section-title mb-4 center-content" style={{marginTop:"3rem"}}> 
+
+
+  <div className="contact-block">
+    <h4>Careers</h4>
+    <p>If you're interested in joining our team, send your resume to:</p>
+    <a href="mailto:careers@mineres.io">careers@mineres.io</a>
+  </div>
+
+  <div className="contact-block">
+    <h4>Support</h4>
+    <p>Need help or have questions? Reach out to our support team:</p>
+    <a href="mailto:support@mineres.io">support@mineres.io</a>
+  </div>
+</div>
+
+
         </section>
     
  

@@ -25,9 +25,11 @@ function Footer() {
               <Link to="/whitepaper">Whitepaper</Link>
             </div>
             <div className="footer-links-inner">
-              <Link to="/careers">Careers</Link>
+          
+
               
               <Link to="/about">About</Link>
+              <Link to="/privacy">Privacy</Link>
             </div> 
           </div>
         </div>
@@ -42,7 +44,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to=" https://t.me/mineres_mrs"
+                  to="https://t.me/mineres_mrs"
                   target="_blank"
                
                 >

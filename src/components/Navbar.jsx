@@ -37,9 +37,17 @@ const [show, setshow] = useState(true)
                 </li>
             
                 <li className="nav-item">
-                  <Link to="/careers" className="nav-link" >
-                    Careers
+                  <Link to="/community" className="nav-link" >
+                  Community
                   </Link>
+
+                </li>
+
+                <li className="nav-item">
+                  <Link to="/ecosystems" className="nav-link" >
+                  Ecosystems
+                  </Link>
+                  
                 </li>
            
                 <li className="nav-item">
@@ -58,7 +66,7 @@ const [show, setshow] = useState(true)
                   href="#"
                   target="_blank"
                 >
-                  Join Presale
+                Pre-Market
                 </a>
               </div>
 

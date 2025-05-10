@@ -17,11 +17,11 @@ function Home() {
                 <h4 className="mineres-sm-heading mb-3">
                 Join the Future of Mineral Trade →
                 </h4>
-                <h1 className="mineres-mainHeroSection-heading mb-4 f-700">
-                  Mineres
+                <h1 className="mineres-mainHeroSection-heading mb-4 f-700" style={{color:"#F4DCB9"}}>
+                Mineres - MRS
                 </h1>
                 <p className="mineres-detail-info">
-                The world runs on metals from smartphones and electric vehicles to satellites and AI infrastructure. Yet, the metal trade remains outdated, opaque, and exclusionary especially for small-scale miners in emerging markets.
+                The world runs on metals from smartphones and electric vehicles to satellites and AI infrastructure. Yet, the metal trade remains outdated, broken, opaque, and exclusionary especially for small-scale miners in emerging markets.
 
 Mineres is transforming this industry with a decentralized, crypto-powered platform built to connect miners directly with global buyers, enable instant cross-border transactions, and reward ethical mining.
 
@@ -119,7 +119,7 @@ Mineres is transforming this industry with a decentralized, crypto-powered platf
                 </div>
                 <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                   <p className="mineres-detail-info m-0">
-                  Mineres' decentralized marketplace transforms the way metals are traded by eliminating middlemen, reducing costs, and fostering direct connections between miners, wholesalers, and industrial buyers across the globe. By leveraging blockchain technology, it ensures transparency, trust, and efficiency in every transaction, giving control back to the participants rather than centralized authorities. This model not only accelerates cross-border trade but also empowers small-scale miners in emerging markets to access global demand, get fair pricing, and build verified reputations, all while promoting ethical and sustainable mining practices through on-chain verification and incentives.
+                  Mineres' decentralized marketplace transforms the way metals are traded by unnecessary middlemen, reducing costs, and fostering direct connections between miners, wholesalers, and industrial buyers across the globe. By leveraging blockchain technology, it ensures transparency, trust, and efficiency in every transaction, giving control back to the participants rather than centralized authorities. This model not only accelerates cross-border trade but also empowers small-scale miners in emerging markets to access global demand, get fair pricing, and build verified reputations, all while promoting ethical and sustainable mining practices through on-chain verification and incentives.
                   </p>
                 </div>
               </div>
@@ -143,7 +143,7 @@ Mineres is transforming this industry with a decentralized, crypto-powered platf
             
 
               <p className="mineres-detail-info px-lg-5" style={{textAlign:"center",}}>
-              A decentralized marketplace powered by smart contracts, Mineres ensures that every transaction is secure, transparent, and automated without relying on intermediaries or centralized control. Smart contracts act as self-executing agreements that hold funds in escrow, verify delivery, and release payments only when conditions are met, eliminating fraud and delays. This trustless system empowers miners and buyers to trade directly, confidently, and efficiently across borders, fostering a more inclusive, ethical, and transparent global metal trade.
+              A decentralized marketplace powered by smart contracts, Mineres ensures that every transaction is secure, transparent, and automated without relying on intermediaries or centralized control. Smart contracts act as self-executing agreements that hold funds in escrow, verify delivery, and release payments only when conditions are met, unnecessary fraud and delays. This trustless system empowers miners and buyers to trade directly, confidently, and efficiently across borders, fostering a more inclusive, ethical, and transparent global metal trade.
               </p>
             </div>
 

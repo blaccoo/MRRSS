@@ -19,7 +19,7 @@ export default function OutlinedTimeline() {
                         <h4>Q2 2025</h4>
                    <ul  style={{listStyleType:"circle", color:"#fff", fontSize:"12px",textAlign:"center"}}>
                     <li  style={{marginBottom:"1rem"}}>
-                    In this critical phase, Mineres enters the market with a beta launch of its decentralized e-commerce platform, enabling early users to test features, provide feedback, and initiate transactions. The onboarding of miners begins, with a focus on artisanal and small-scale miners across Africa, Latin America, and other emerging regions who have historically lacked direct access to global markets. Meanwhile, global industrial buyers are brought into the ecosystem. Strategic partnerships are formed with B2B networks and logistics providers, laying the groundwork for streamlined operations and scaling adoption.
+                    Mineres kicks off its journey by finalizing and publishing the whitepaper, laying down the vision, architecture, and tokenomics that will guide the project. The MRS token—the native utility token powering the Mineres ecosystem—is officially launched on the BNB Chain, enabling staking, payments, and decentralized finance features. Simultaneously, the team initiates development of the MVP (Minimum Viable Product) version of the Mineres Marketplace: a Web3 platform designed to connect miners, buyers, and supply chain stakeholders in a transparent, trustless environment.
                     </li>
                  
                   
