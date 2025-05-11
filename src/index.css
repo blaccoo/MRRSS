@@ -2241,3 +2241,21 @@ h3 {
 .contact-block a:hover {
   text-decoration: underline;
 }
+
+
+.social-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00aced; /* Highlight color */
+}

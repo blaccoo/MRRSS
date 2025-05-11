@@ -13,15 +13,13 @@ function Features() {
           <div className="inft-content pr-lg-5">
             <Box sx={{width:"100%",display:{xs:"none", sm:"block"}}}>
             <h3>
-              Tubocharge <br />
-              Metal Trade.
+            Mineres - MRS
             </h3>
             </Box>
 
             <Box sx={{width:"100%",display:{xs:"block", sm:"none"}}}>
             <h3 style={{fontWeight:"700", fontSize:"62px",lineHeight:"4.5rem"}}>
-              Tubocharge<br />
-             Metal Trade.
+            Mineres - MRS
             </h3>
             </Box>
 {/*       
@@ -29,21 +27,17 @@ function Features() {
               Mineres  leads the charge for a easily available, cost effective, secure  infastructure for the Blockchain ecosystem through automated trading.
             </p> */}
           </div>
-          <Box sx={{display:{xs:"block", sm:"block"}}}>
-          <div className="inft-banner-img"  >
-            <img src="assets/n6.png" alt=""  style={{borderRadius:"1rem"}}/>
-          </div>
-          </Box>
+
+          <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/83i34rEEYKU?si=bne_4_MZkBgm3OBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
         
         </div>
 
-        <Box sx={{display:{xs:"block", sm:"none"}}}>
-          <div className="inft-banner-img"  >
-            <img src="assets/n6.png" alt=""  style={{borderRadius:"1rem"}}/>
-          </div>
-          </Box>
+ 
       </div>
     </div>
+
 
 
 

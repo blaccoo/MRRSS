@@ -12,20 +12,42 @@ function Community() {
 
 
      <section className="page-title about-title">
-          <div className="container">
-            <div className="page-title-inner">
-              <Box sx={{display:{xs:"none",sm:"block"}}}>
-              <h2> Mineres - MRS</h2>
-              </Box>
-             
-              <Box sx={{display:{xs:"block",sm:"none"}}}>
-              <h3 style={{lineHeight:"2.5rem", color:"#fff", fontWeight:"1000"}}>Mineres Community</h3>
-              </Box>
+  <div className="container">
+    <div className="page-title-inner">
+      <Box sx={{ display: { xs: "none", sm: "block" } }}>
+        <h2>Mineres - MRS</h2>
+      </Box>
 
-              <p>With over 40 million people working in artisanal and small-scale mining (ASM), most still operate outside of formal markets, facing unfair pricing, limited transparency, and zero digital infrastructure to protect their value</p>
-            </div>
-          </div>
-        </section>
+      <Box sx={{ display: { xs: "block", sm: "none" } }}>
+        <h3 style={{ lineHeight: "2.5rem", color: "#fff", fontWeight: "1000" }}>
+          Mineres Community
+        </h3>
+      </Box>
+
+      <p>
+        With over 40 million people working in artisanal and small-scale mining (ASM),
+        most still operate outside of formal markets, facing unfair pricing, limited
+        transparency, and zero digital infrastructure to protect their value. Join Mineres - MRS Community
+      </p>
+
+      <div className="social-icons">
+        <a href="https://twitter.com/Mineres_MRS" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-x-twitter"></i>
+        </a>
+        <a href=" https://t.me/mineres_mrs" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-telegram-plane"></i>
+        </a>
+        <a href="https://youtube.com/@mineresfoundation?si=KZFBnljUS62-zmbr" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-youtube"></i>
+        </a>
+        <a href="https://LinkedIn.com/in/mineres-foundation" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
   

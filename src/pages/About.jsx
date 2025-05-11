@@ -181,13 +181,13 @@ Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gat
   <div className="contact-block">
     <h4>Careers</h4>
     <p>If you're interested in joining our team, send your resume to:</p>
-    <a href="mailto:careers@mineres.io">careers@mineres.io</a>
+    <a href="mailto:careers@mineres.org">careers@mineres.org</a>
   </div>
 
   <div className="contact-block">
     <h4>Support</h4>
     <p>Need help or have questions? Reach out to our support team:</p>
-    <a href="mailto:support@mineres.io">support@mineres.io</a>
+    <a href="mailto:support@mineres.org">support@mineres.org</a>
   </div>
 </div>
 
