@@ -61,7 +61,7 @@ function Community() {
               <div className="section-img h-100 mb-5">
               <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
               <img
-                          src="assets/n4.png"
+                          src="assets/foundation.jpeg"
                           style={{ width: "100%", height: "100%", }}
                         />
               </Box>
@@ -70,7 +70,13 @@ function Community() {
             <div className="content-section">
               <h3>Mineres Foundation</h3>
            <p>
-           Mineres fixes the current problems in the metal trade by creating a decentralized, transparent, and incentive-driven ecosystem that empowers both miners and buyers. Instead of relying on middlemen and outdated systems, Mineres uses blockchain technology and smart contracts to allow direct, trustless transactions between verified participants. Miners, especially in underserved regions like Africa, gain direct access to global buyers through the Mineres Marketplace, receiving fair prices and faster payments. The platform’s native token, MRS, enables secure crypto payments, escrow services, and staking mechanisms that build trust and reduce fraud. Additionally, Miner NFTs are used to verify the identity and ethical practices of miners, promoting sustainability and accountability. With built-in tools for compliance, logistics, and digital wallets, Mineres transforms the metal trade into a secure, fair, and future-ready digital marketplace.
+           The Mineres Foundation is our commitment to social equity and sustainability. We recognize that the communities surrounding mines are often left behind in traditional supply chains. Our foundation exists to correct that imbalance. By allocating a percentage of every transaction and a fixed portion of the MRS token supply, we fund vital infrastructure and social programs in mining regions. This includes clean drinking water projects, education for miners' children, health care support, mining safety gear, and environmental rehabilitation of depleted sites.
+              </p>
+
+              <p>
+              We also collaborate with NGOs, local governments, and community leaders to ensure our efforts are truly transformative—not just transactional. Every project supported by the Foundation is designed with long-term empowerment in mind, giving these communities the tools they need to thrive well beyond their relationship with the mining sector.
+
+
               </p>
 
             </div>
@@ -81,7 +87,7 @@ function Community() {
            
              
                         <img
-                          src="assets/n4.png"
+                          src="assets/img/foundation.jpg"
                           style={{ width: "100%", height: "100%", }}
                         />
                     
@@ -102,7 +108,7 @@ function Community() {
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-none">
             <div className="section-img h-100" >
               <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-              <img  src='assets/n5.png' style={{width:"100%", height:"100%"}} />
+              <img  src='assets/img/research.webp' style={{width:"100%", height:"100%"}} />
               </Box>
           
             </div>
@@ -111,20 +117,22 @@ function Community() {
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-block d-lg-none">
               <div className="section-img h-100 mb-5">
               <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-          <img  src='assets/n5.png' style={{width:"100%", height:"100%"}} />
+          <img  src='assets/img/research.webp' style={{width:"100%", height:"100%"}} />
               </Box>
               </div>
             </div>
             <div className="content-section">
               <h3>Mineres Research Project</h3>
               <p>
-              Trust and transparency are at the heart of Mineres because they solve the core issues plaguing the global metal trade. In an industry where transactions often span continents and involve multiple intermediaries, lack of trust leads to delayed payments, unfair pricing, and frequent disputes. Transparency is equally critical buyers need to know where their minerals come from, how they were sourced, and whether ethical and environmental standards were followed.
-
-Mineres builds trust through blockchain technology, which ensures that every transaction is verifiable, immutable, and open to all participants. Smart contracts eliminate the need for third-party enforcement by automatically holding and releasing funds when agreed conditions are met. Miner NFTs bring a new level of transparency by proving the origin and ethical practices of each miner. This system reduces fraud, increases confidence among buyers, and opens up fair market access for small-scale miners who have long been excluded from global trade.
-
-In short, trust and transparency aren’t just features at Mineres they’re the foundation of a better, more equitable mineral economy.
+              The Mineres R&D division is where innovation meets sustainability. We are pioneering research into the ethical extraction, processing, and logistics of rare earth and industrial metals. Backed by our token economy, we’ve set up a decentralized research fund that supports cutting-edge projects in areas such as AI-driven supply chain monitoring, eco-friendly mining techniques, and zero-waste mineral processing.
+            
+            
               </p>
-        
+        <p>
+        We partner with leading universities, environmental scientists, geologists, and blockchain technologists to drive this innovation. Our mission is to create solutions that reduce environmental degradation, lower energy usage, and ensure full traceability of every mineral—from mine to factory. The results of our R&D also help shape our platform’s features, making Mineres the most advanced and responsible mineral trading ecosystem in the world.
+
+
+        </p>
             </div>
           </div>
         
@@ -143,18 +151,24 @@ In short, trust and transparency aren’t just features at Mineres they’re the
               <div className="section-img h-100 mb-5">
               <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
               <img
-                          src="assets/n4.png"
+                          src="assets/img/foundation.jpg"
                           style={{ width: "100%", height: "100%", }}
                         />
               </Box>
               </div>
             </div>
             <div className="content-section">
-              <h3>Mineres Foundation</h3>
+              <h3>Report a Scam</h3>
            <p>
-           Mineres fixes the current problems in the metal trade by creating a decentralized, transparent, and incentive-driven ecosystem that empowers both miners and buyers. Instead of relying on middlemen and outdated systems, Mineres uses blockchain technology and smart contracts to allow direct, trustless transactions between verified participants. Miners, especially in underserved regions like Africa, gain direct access to global buyers through the Mineres Marketplace, receiving fair prices and faster payments. The platform’s native token, MRS, enables secure crypto payments, escrow services, and staking mechanisms that build trust and reduce fraud. Additionally, Miner NFTs are used to verify the identity and ethical practices of miners, promoting sustainability and accountability. With built-in tools for compliance, logistics, and digital wallets, Mineres transforms the metal trade into a secure, fair, and future-ready digital marketplace.
+           In a decentralized world, trust is everything—and we take it seriously. While Web3 opens up incredible opportunities, it also attracts bad actors. The Mineres team is committed to protecting our users and preserving the integrity of our ecosystem.
               </p>
+<p>
+If you see someone misusing the Mineres name, impersonating team members, promising unrealistic returns, or conducting suspicious activities related to our platform or token—report it immediately. We have a dedicated risk management and legal team that investigates each claim. You can submit reports anonymously, and we treat all information with confidentiality.  
+</p>
 
+<p>
+Help us maintain a safe and honest environment for everyone. Together, we build a community that values security, accountability, and transparency.
+</p>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-none">
@@ -163,7 +177,7 @@ In short, trust and transparency aren’t just features at Mineres they’re the
            
              
                         <img
-                          src="assets/n4.png"
+                          src="assets/img/scam.png"
                           style={{ width: "100%", height: "100%", }}
                         />
                     
@@ -176,45 +190,7 @@ In short, trust and transparency aren’t just features at Mineres they’re the
     </section>
 
     
-    <section className="imageContentSection"  style={{marginBottom:"10rem", marginTop:'10rem'}}>
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-block d-lg-none">
-              <div className="section-img h-100 mb-5">
-              <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-              <img
-                          src="assets/n4.png"
-                          style={{ width: "100%", height: "100%", }}
-                        />
-              </Box>
-              </div>
-            </div>
-            <div className="content-section">
-              <h3>Mineres Foundation</h3>
-           <p>
-           Mineres fixes the current problems in the metal trade by creating a decentralized, transparent, and incentive-driven ecosystem that empowers both miners and buyers. Instead of relying on middlemen and outdated systems, Mineres uses blockchain technology and smart contracts to allow direct, trustless transactions between verified participants. Miners, especially in underserved regions like Africa, gain direct access to global buyers through the Mineres Marketplace, receiving fair prices and faster payments. The platform’s native token, MRS, enables secure crypto payments, escrow services, and staking mechanisms that build trust and reduce fraud. Additionally, Miner NFTs are used to verify the identity and ethical practices of miners, promoting sustainability and accountability. With built-in tools for compliance, logistics, and digital wallets, Mineres transforms the metal trade into a secure, fair, and future-ready digital marketplace.
-              </p>
 
-            </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-none">
-            <div className="section-img h-100" >
-              <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-           
-             
-                        <img
-                          src="assets/n4.png"
-                          style={{ width: "100%", height: "100%", }}
-                        />
-                    
-              </Box>
-          
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
 

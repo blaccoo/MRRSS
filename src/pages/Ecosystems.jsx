@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import { Box, Grid, Typography } from '@mui/material'
+import Roadmap2 from "../components/Roadmap2"
+import Tokenmetrics from '../components/Tokenmetrics'
 
 function Ecosystems() {
  
@@ -46,270 +48,240 @@ function Ecosystems() {
       </div>
     </div>
 
-
-
-
-
-  
-
-
-    <section className="imageContentSection"  style={{marginBottom:"10rem", marginTop:'10rem'}}>
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-block d-lg-none">
-              <div className="section-img h-100 mb-5">
-              <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-              <img
-                          src="assets/n4.png"
-                          style={{ width: "100%", height: "100%", }}
-                        />
-              </Box>
-              </div>
-            </div>
-            <div className="content-section">
-              <h3>How Mineres Fixes the Broken Metal Trade System</h3>
-           <p>
-           Mineres fixes the current problems in the metal trade by creating a decentralized, transparent, and incentive-driven ecosystem that empowers both miners and buyers. Instead of relying on middlemen and outdated systems, Mineres uses blockchain technology and smart contracts to allow direct, trustless transactions between verified participants. Miners, especially in underserved regions like Africa, gain direct access to global buyers through the Mineres Marketplace, receiving fair prices and faster payments. The platform’s native token, MRS, enables secure crypto payments, escrow services, and staking mechanisms that build trust and reduce fraud. Additionally, Miner NFTs are used to verify the identity and ethical practices of miners, promoting sustainability and accountability. With built-in tools for compliance, logistics, and digital wallets, Mineres transforms the metal trade into a secure, fair, and future-ready digital marketplace.
-              </p>
-
-            </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-none">
-            <div className="section-img h-100" >
-              <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-           
-             
-                        <img
-                          src="assets/n4.png"
-                          style={{ width: "100%", height: "100%", }}
-                        />
-                    
-              </Box>
-          
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section className="imageContentSection"  style={{marginBottom:"10rem", marginTop:'10rem'}}>
-      <div className="container">
-        <div className="row">
-
-
-        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-none">
-            <div className="section-img h-100" >
-              <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-              <img  src='assets/n5.png' style={{width:"100%", height:"100%"}} />
-              </Box>
-          
-            </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-block d-lg-none">
-              <div className="section-img h-100 mb-5">
-              <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
-          <img  src='assets/n5.png' style={{width:"100%", height:"100%"}} />
-              </Box>
-              </div>
-            </div>
-            <div className="content-section">
-              <h3>Why Trust and Transparency is key to Mineres</h3>
-              <p>
-              Trust and transparency are at the heart of Mineres because they solve the core issues plaguing the global metal trade. In an industry where transactions often span continents and involve multiple intermediaries, lack of trust leads to delayed payments, unfair pricing, and frequent disputes. Transparency is equally critical buyers need to know where their minerals come from, how they were sourced, and whether ethical and environmental standards were followed.
-
-Mineres builds trust through blockchain technology, which ensures that every transaction is verifiable, immutable, and open to all participants. Smart contracts eliminate the need for third-party enforcement by automatically holding and releasing funds when agreed conditions are met. Miner NFTs bring a new level of transparency by proving the origin and ethical practices of each miner. This system reduces fraud, increases confidence among buyers, and opens up fair market access for small-scale miners who have long been excluded from global trade.
-
-In short, trust and transparency aren’t just features at Mineres they’re the foundation of a better, more equitable mineral economy.
-              </p>
-        
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </section>
-
-    <section id="feature-app">
-          <div className="container">
-   
-   
-   <Grid container
-                   className="feature-content-bg"
-         
-            >
-
-    <Grid item   xs={12} sm={6}  sx={{paddingRight:{sm:"2rem"}}}>
-    <img
-                src="assets/n2.png"
-                style={{ width: "100%", height: "100%", }}
-              />
-    </Grid>
-     
-       
-          
-        
-<Grid item xs={12} sm={6}>
-<div className="flex-wrapper" style={{ textAlign: "center" }}>
-                <div className="mineres-text-box">
-                  <h1
-                    className="mineres-main-heading mb-0"
-                    style={{ alignSelf: "center" }}
-                  >
-               A $7 Trillion Market, Reinvented
-                  </h1>
-          
-
-                  <p className="mineres-detail-info mb-4">
-                  The global metal and mineral trade—valued at over $7 trillion—is one of the most vital yet outdated industries in the world. It fuels the technologies of tomorrow: electric vehicles, AI, space exploration, and renewable energy. Yet behind this massive market lies a broken system: slow cross-border transactions, hidden middlemen, limited access for small-scale miners, and zero incentives for ethical sourcing.
-
-Mineres is changing the story. By leveraging blockchain, smart contracts, and a crypto-powered ecosystem, we're turning this legacy industry into a decentralized, transparent, and inclusive marketplace. Now, miners in emerging markets can connect directly with global buyers, receive fair payments, and build trust through verifiable digital identities.
-
-This isn’t just innovation it’s a reinvention. One that unlocks real-world value, powers sustainable development, and puts the future of metal trade into the hands of the people who shape it.
-
-
-
-
-
-
-
-                  </p>
-                </div>
-              </div>
-
-</Grid>
-
-            
-            </Grid>
-          </div>
-        </section>
-
-
-
-            <section id="feature-app"  style={{marginBottom:"10rem", marginTop:'10rem'}}>
-          <div className="container">
-   
-   
-
-   
-
-
-
-
-
-
-          </div>
-        </section>
-
-
-      <section id="keeping-inline">
+        <section id="tolstoys-beta">
            <div className="container">
-             <div className="mb-4">
-               <h1 className="mineres-main-heading text-center mb-4 px-lg-4">
-                 {" "}
-                 Mineres, brings several distinct advantages to the Web3 space and the broader blockchain and cryptocurrency Ecosystems:
-               </h1>
-               {/*                <h1 class="mineres-main-sub-heading">all TOLSTOY-1 generated characters are fully compatible with the iNFT Protocol.</h1>*/}
+             <h1 className="mineres-main-heading text-center mb-4">
+             TOKEN UTILITY - MRS
+             </h1>
+             <div className="mineres-primary-text px-lg-5 font-20 d-block">
+               <p className="mineres-detail-info  px-lg-5 mb-0 text-center">
+               The utility token of the platform serves various functions that enable participants to access platform features, and contribute to the ecosystem
+               </p> 
              </div>
-             {/*            <p class="mineres-detail-info mb-5">Some of the benefits of tokenizing a TOLSTOY-1 generated character on the iNFT Protocol include:</p>*/}
-             <div className="row justify-content-center mt-5">
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
-                 <div className="nft-box text-center">
-                   <div className="nft-img-box">
-                     <img src="assets/img/a1.svg" />
+           <Box  sx={{ marginTop:"3rem"}}>
+             <div className="beta-slider slick-initialized slick-slider slick-dotted">
+               {/*
+             <div class="beta-box-wrapper">
+                 <div class="beta-box-inner-img text-center">
+                     <img src="assets/img/phased.svg">
+                 </div>
+                 <h1 class="beta-box-title text-center mt-4 mb-2">Phased Deployment</h1>
+                 <div class="beta-detail-box">
+                     <p class="mineres-detail-info text-center">Alethea AI will release its AI Models progressively over time with taking into considerations the learnings and developments during the initial releases. These models can be used by anyone, including the AI Providers of the iNFT Protocol.</p>
+                 </div>
+             </div>
+   */}
+               <div className="slick-list draggable">
+                 <Box
+                   className="slick-track"
+               sx={{display:"flex", flexDirection:{xs:"column", sm:"row"}, alignItems:"center", flexWrap:'wrap'}}
+                 >
+                   <div
+                     className="beta-box-wrapper slick-slide slick-current slick-active"
+                     tabIndex={0}
+                     style={{ width:"330px", height:"550px", marginBlockStart:"1rem"  }}
+                     data-slick-index={0}
+                     aria-hidden="false"
+                     role="tabpanel"
+                     id="slick-slide40"
+                     aria-describedby="slick-slide-control40"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img//mxl1.png"  style={{width:"100px", height:"100px", marginBlock:"1rem"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                       {" "}
+                       Payments for Mineral Resource Transactions
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
+          
+                       Mineres enables fast, secure, and transparent payments using blockchain technology. Transactions for earth metals are conducted using the MRS token, allowing for low-fee, borderless payments while eliminating intermediaries that typically increase costs and delays.
+                       </p>
+                     </div>
                    </div>
-                   <h4 className="nft-title mt-4 mb-3 px-lg-4">
-                   Real-World Use Case
-                   </h4>
-                   <p className="mineres-detail-info  px-3  mb-0">
+                   <div
+                     className="beta-box-wrapper slick-slide"
+                     tabIndex={-1}
+                     style={{ width:"330px", height:"550px", marginBlock:"1rem"   }}
+                     data-slick-index={1}
+                     aria-hidden="true"
+                     role="tabpanel"
+                     id="slick-slide41"
+                     aria-describedby="slick-slide-control41"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img/mxl2.png" style={{width:"100px", height:"100px"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                     Escrow Contracts Between Sellers and Buyers
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
+                     
+ To ensure fairness and trust, Mineres uses smart escrow contracts that automatically hold funds until both parties fulfill their obligations. This trustless mechanism protects buyers and sellers alike by enforcing transparent, tamper-proof agreements without relying on a centralized authority.
+ 
+ 
+                       </p>
+                     </div>
+                   </div>
+                   <div
+                     className="beta-box-wrapper slick-slide"
+                     tabIndex={-1}
+                     style={{ width:"330px", height:"550px"  }}
+                     data-slick-index={2}
+                     aria-hidden="true"
+                     role="tabpanel"
+                     id="slick-slide42"
+                     aria-describedby="slick-slide-control42"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img/mxl3.png" style={{width:"100px", height:"100px"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                       {" "}
+                       Miner Verification and Reputation Tracking
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
+                       The Mineres Foundation supports sustainable and ethical mining. It rewards operations that demonstrate environmental responsibility and reinvests in communities impacted by mining activities through development programs, education, and infrastructure projects.
+                       </p>
+                     </div>
+                   </div>
+ 
+ 
+                   <div
+                     className="beta-box-wrapper slick-slide"
+                     tabIndex={-1}
+                     style={{ width:"330px", height:"550px"  }}
+                     data-slick-index={2}
+                     aria-hidden="true"
+                     role="tabpanel"
+                     id="slick-slide42"
+                     aria-describedby="slick-slide-control42"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img/p3.webp" style={{width:"100px", height:"100px"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                       {" "}
+                       The Mineres Foundation 
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
+                 
+                       The Mineres Foundation supports sustainable and ethical mining. It rewards operations that demonstrate environmental responsibility and reinvests in communities impacted by mining activities through development programs, education, and infrastructure projects.
+                       </p>
+                     </div>
+                   </div>
+ 
+                   <div
+                     className="beta-box-wrapper slick-slide"
+                     tabIndex={-1}
+                     style={{ width:"330px", height:"550px"  }}
+                     data-slick-index={2}
+                     aria-hidden="true"
+                     role="tabpanel"
+                     id="slick-slide42"
+                     aria-describedby="slick-slide-control42"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img/mxl6.png" style={{width:"100px", height:"100px"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                       {" "}
+                       B2B Discounts Through the Mineres E-commerce Platform
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
+                     
+                       Businesses using the Mineres marketplace gain access to exclusive discounts on B2B services. By integrating e-commerce with token-based incentives, Mineres enhances business efficiency and reduces operational costs for supply chain partners.
+                       </p>
+                     </div>
+                   </div>
+ 
+ 
+                   <div
+                     className="beta-box-wrapper slick-slide"
+                     tabIndex={-1}
+                     style={{ width:"330px", height:"550px"  }}
+                     data-slick-index={2}
+                     aria-hidden="true"
+                     role="tabpanel"
+                     id="slick-slide42"
+                     aria-describedby="slick-slide-control42"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img/p-d.png" style={{width:"100px", height:"100px"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                       {" "}
+                       Token Staking for Supply Priority and Buyer Guarantees
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
                 
-                 
- Mineres brings blockchain into the physical world by applying Web3 tools to the global metal trade, solving real problems in a trillion-dollar industry.
-                   </p>
-                 </div>
-               </div>
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
-                 <div className="nft-box text-center">
-                   <div className="nft-img-box">
-                     <img src="assets/img/a2.svg" />
+                       Participants can stake MRS tokens to gain supply priority or assure sellers of serious buying intent. This staking model reduces uncertainty in transactions and creates an incentive structure that benefits both sides of the trade.
+                       </p>
+                     </div>
                    </div>
-                   <h4 className="nft-title mt-4 mb-3 px-lg-4">
-                   Support for Emerging Markets
-                   </h4>
-                   <p className="mineres-detail-info  px-3  mb-0">
-                   Support for Emerging Markets
- By connecting miners in Africa and other developing regions directly with global buyers, Mineres removes exploitative middlemen and promotes fairer, more inclusive trade.
  
- 
-                   </p>
-                 </div>
-               </div>
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
-                 <div className="nft-box text-center">
-                   <div className="nft-img-box">
-                     <img src="assets/img/a3.svg" />
-                   </div>
-                   <h4 className="nft-title mt-4 mb-3 px-lg-4">
-                   Incentives for Ethical Mining
-                   </h4>
-                   <p className="mineres-detail-info  px-3  mb-0">
-                 
-                   Miners who follow sustainable and ethical practices are rewarded with MRS tokens, encouraging responsible behavior while enhancing trust in the supply chain.
-                   </p>
-                 </div>
-               </div>
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
-                 <div className="nft-box text-center">
-                   <div className="nft-img-box">
-                     <img src="assets/img/a4.svg" />
-                   </div>
-                   <h4 className="nft-title mt-4 mb-3 px-lg-4">
-                   Verified Miner Identity with NFTs
-                   </h4>
-                   <p className="mineres-detail-info  px-3  mb-0">
-                  
                    
-                   Each miner gets a digital identity in the form of an NFT that proves origin, builds reputation, and makes it easier for buyers to trust and choose ethical suppliers.
-                   </p>
-                 </div>
-               </div>
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
-                 <div className="nft-box text-center">
-                   <div className="nft-img-box">
-                     <img src="assets/img/a5.svg" />
+                   <div
+                     className="beta-box-wrapper slick-slide"
+                     tabIndex={-1}
+                     style={{ width:"330px", height:"550px"  }}
+                     data-slick-index={2}
+                     aria-hidden="true"
+                     role="tabpanel"
+                     id="slick-slide42"
+                     aria-describedby="slick-slide-control42"
+                   >
+                     <div className="beta-box-inner-img text-center">
+                       <img src="assets/img/digital-company.webp" style={{width:"100px", height:"100px"}}/>
+                     </div>
+                     <h1 className="beta-box-title text-center mt-4 mb-2">
+                       {" "}
+                       Funding Research and Development
+                     </h1>
+                     <div className="beta-detail-box">
+                       <p className="mineres-detail-info  px-2 text-center">
+                      
+                       A portion of the MRS token economy is allocated to research and development in rare earth metals. This includes exploring new scientific applications, discovering new elements, and fostering innovation that benefits global industries and future technologies.
+                       </p>
+                     </div>
                    </div>
-                   <h4 className="nft-title mt-4 mb-3 px-lg-4">
-                   All-in-One Web3 Trading Platform
-                   </h4>
-                   <p className="mineres-detail-info  px-3  mb-0">
-                     {" "}
-                  
- Mineres combines payments, wallets, staking, and logistics into one decentralized platform, creating a seamless and borderless experience for metal trading.
-                   </p>
-                 </div>
+                   
+                 </Box>
                </div>
- 
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
-                 <div className="nft-box text-center">
-                   <div className="nft-img-box">
-                     <img src="assets/img/a3.svg" />
-                   </div>
-                   <h4 className="nft-title mt-4 mb-3 px-lg-4">
-                   Compliance 
-                   </h4>
-                   <p className="mineres-detail-info  px-3  mb-0">
-                     {" "}
-                     Mineres ensures compliance with evolving cryptocurrency and blockchain regulations, reducing legal risks for the projects it evaluates. This commitment to compliance adds an extra layer of security and trustworthiness.
-                   </p>
-                 </div>
-               </div>
+          
              </div>
+          
+             </Box>
+           
            </div>
          </section>
-    
 
+
+<div className='container'>
+<div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+<div   style={{display:"flex", flexDirection:"row", alignItems:"center", justifyContent:"center"}}>
+              <h3 style={{ color:"#fff"}}>MRS Tokenomics</h3>
+                
+            </div>
+<Box  sx={{width:{xs:"90vw",sm:"60vw"},height:{xs:"60vh",sm:"80vh"}, backgroundColor:"#000", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:{xs:"2rem", sm:'2rem'}, borderRadius:"2rem"}}>
+
+                     <Tokenmetrics/>
+                     <p style={{fontSize:"18px", color:"#fff", marginTop:"1rem"}}>Total supply (2 Billion)</p>
+              </Box>
+</div>
+</div>
+
+<div style={{display:'flex', flexDirection:"column", justifyContent:"center", alignItems:"center",marginBlock:"5rem"}}>
+<h3 style={{ color:"#fff"}}>Roadmap and future vision </h3>
+<Roadmap2/>
+
+</div>
 
 
     <div className="divider mb-5" />

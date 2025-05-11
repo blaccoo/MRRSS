@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import { Box, Grid } from '@mui/material'
 import TokenMetrics from "../components/Tokenmetrics"
 import Roadmap from "../components/Roadmap"
-import Roadmap2 from "../components/Roadmap2"
+
 
 function About() {
   return (
@@ -32,13 +32,16 @@ function About() {
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" style={{marginBottom:"2rem"}}>
                 <div className="content-section">
                   <h3>What we stand for</h3>
-                  <p>Mineres is revolutionizing the global metal trade by combining the power of blockchain, Web3 technologies, and real-world utility. In a $7 trillion industry plagued by inefficiencies, middlemen, and lack of transparency, we’re creating a decentralized ecosystem where miners, buyers, and communities can trade directly, securely, and fairly.
+                  <p>Mineres is revolutionizing the global metal trade by combining the power of blockchain, Web3 technologies, and real-world utility. In a $7 trillion industry plagued by inefficiencies, middlemen, and lack of transparency, we’re creating a decentralized ecosystem where miners, buyers, and communities can trade directly, securely, and fairly. </p> 
+                  
+                  <p>
 
-The global demand for critical minerals like lithium, cobalt, and rare earth metals is expected to rise over 500% by 2050, driven by innovations in electric vehicles, AI, clean energy, and space technologies. Yet, the trade systems supporting these vital resources remain outdated. Small-scale miners in emerging economies often receive a fraction of the true value for their resources due to limited market access, slow cross-border payments, and a lack of trust and verification.
+<p>The global demand for critical minerals like lithium, cobalt, and rare earth metals is expected to rise over 500% by 2050, driven by innovations in electric vehicles, AI, clean energy, and space technologies. Yet, the trade systems supporting these vital resources remain outdated. Small-scale miners in emerging economies often receive a fraction of the true value for their resources due to limited market access, slow cross-border payments, and a lack of trust and verification. </p>
 
-Mineres changes that. We’ve built a blockchain-powered marketplace that allows miners to connect directly with global buyers. Our native utility token, MRS, facilitates fast, secure transactions, supports staking and escrow functions, and rewards ethical and environmentally friendly mining practices. Smart contracts replace paperwork and reduce the need for third-party intervention, while Miner NFTs verify identity, reputation, and origin, bringing trust and traceability to every transaction.
+<p>
+ Mineres changes that. We’ve built a blockchain-powered marketplace that allows miners to connect directly with global buyers. Our native utility token, MRS, facilitates fast, secure transactions, supports staking and escrow functions, and rewards ethical and environmentally friendly mining practices. Smart contracts replace paperwork and reduce the need for third-party intervention, while Miner NFTs verify identity, reputation, and origin, bringing trust and traceability to every transaction. </p>
 
-We believe that fair, ethical trade should be accessible to everyone especially the people who do the hardest work. With Mineres, we’re unlocking new opportunities for small-scale miners, ensuring industrial buyers get transparent, traceable supply, and helping the metal trade leap into the digital age.
+We believe that fair, ethical trade should be accessible to everyone especially the people who do the hardest work.</p> <p> With Mineres, we’re unlocking new opportunities for small-scale miners, ensuring industrial buyers get transparent, traceable supply, and helping the metal trade leap into the digital age.
 
 Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gateway to the next generation of metal trading secure, decentralized, and built for the future.
                   </p>
@@ -58,25 +61,7 @@ Whether you're a miner, wholesaler, investor, or enterprise, Mineres is your gat
 
 
 
-<div className='container'>
-<div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-<div   style={{display:"flex", flexDirection:"row", alignItems:"center", justifyContent:"center"}}>
-              <h3 style={{ color:"#fff"}}>MRS Tokenomics</h3>
-                
-            </div>
-<Box  sx={{width:{xs:"90vw",sm:"60vw"},height:{xs:"60vh",sm:"80vh"}, backgroundColor:"#000", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:{xs:"2rem", sm:'2rem'}, borderRadius:"2rem"}}>
 
-                     <TokenMetrics />
-                     <p style={{fontSize:"18px", color:"#fff", marginTop:"1rem"}}>Total supply (2 Billion)</p>
-              </Box>
-</div>
-</div>
-
-<div style={{display:'flex', flexDirection:"column", justifyContent:"center", alignItems:"center",marginBlock:"5rem"}}>
-<h3 style={{ color:"#fff"}}>Roadmap and future vision </h3>
-<Roadmap2/>
-
-</div>
 
 
 
