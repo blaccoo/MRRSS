@@ -29,7 +29,20 @@ function Features() {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/83i34rEEYKU?si=bne_4_MZkBgm3OBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+
+          <iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/83i34rEEYKU?autoplay=1"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+
 </div>
         
         </div>
@@ -45,18 +58,14 @@ function Features() {
 
   
 
-   <section id="our-vision">
+        <section id="our-vision">
           <div className="container">
             <h1 className="mineres-main-heading text-center mb-4">
-            A decentralized Marketplace powered by Smart Contracts and Blockchain technology
+            MINERES (MRS) - THE FUTURE OF MINERALS TRADE WITH CRYPTO
             </h1>
           
             <div className="mineres-primary-text px-lg-5 font-20 d-block">
-            
-
-              <p className="mineres-detail-info px-lg-5" style={{textAlign:"center",}}>
-              A decentralized marketplace powered by smart contracts, Mineres ensures that every transaction is secure, transparent, and automated without relying on intermediaries or centralized control. Smart contracts act as self-executing agreements that hold funds in escrow, verify delivery, and release payments only when conditions are met, unnecessary fraud and delays. This trustless system empowers miners and buyers to trade directly, confidently, and efficiently across borders, fostering a more inclusive, ethical, and transparent global metal trade.
-              </p>
+        
             </div>
             <Box sx={{display:{xs:"none", sm:"block"}}}>
             <div className="our-vision-slider slick-initialized slick-slider slick-dotted">
@@ -302,6 +311,8 @@ function Features() {
     
           </div>
         </section>
+
+
 
     <section id="feature-app">
           <div className="container">

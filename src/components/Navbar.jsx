@@ -117,9 +117,20 @@ const [show, setshow] = useState(true)
                 <li class="nav-item">
                     <Link to="/whitepaper" class="nav-link" >Whitepaper</Link>
                 </li>
-                <li class="nav-item">
-                    <Link to="/careers" class="nav-link">Careers</Link>
+                <li className="nav-item">
+                  <Link to="/community" className="nav-link" >
+                  Community
+                  </Link>
+
                 </li>
+
+                <li className="nav-item">
+                  <Link to="/ecosystems" className="nav-link" >
+                  Ecosystems
+                  </Link>
+                  
+                </li>
+                
                 <li class="nav-item">
                     <Link to="/about" class="nav-link" >About</Link>
                 </li>

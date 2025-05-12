@@ -31,18 +31,23 @@ function Community() {
       </p>
 
       <div className="social-icons">
-        <a href="https://twitter.com/Mineres_MRS" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-x-twitter"></i>
+      <a href="https://twitter.com/Mineres_MRS" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-x-twitter" style={{ color: "#000000" }}></i>
         </a>
-        <a href=" https://t.me/mineres_mrs" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-telegram-plane"></i>
+        <a href="https://t.me/mineres_mrs" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-telegram-plane" style={{ color: "#0088cc" }}></i>
         </a>
         <a href="https://youtube.com/@mineresfoundation?si=KZFBnljUS62-zmbr" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-youtube"></i>
+          <i className="fab fa-youtube" style={{ color: "#FF0000" }}></i>
         </a>
         <a href="https://LinkedIn.com/in/mineres-foundation" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in" style={{ color: "#0077b5" }}></i>
         </a>
+        <a href="https://www.facebook.com/share/1CMN5WdwL4/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-facebook" style={{ color: "#1877f2" }}></i>
+        </a>
+ 
+ 
       </div>
     </div>
   </div>

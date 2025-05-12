@@ -33,56 +33,7 @@ function Footer() {
             </div> 
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12 mb-md-0 mb-4">
-          <h3 className="mineres-footer-heading mb-4">community</h3>
-          <nav className="mineres-footer-social-icons">
-            <ul>
-              <li>
-                <Link to="https://twitter.com/Mineres_MRS" target="_blank">
-                  <img src="assets/img/twitter.svg" />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="https://t.me/mineres_mrs"
-                  target="_blank"
-               
-                >
-                  <Box sx={{ backgroundImage: "linear-gradient(to right,#2f82ed , #73aaf3)",borderRadius:"7px",display:"flex", flexDirection:"row", alignItems:"center", padding:"0.3rem"}}>
-                  <TelegramIcon sx={{fontSize:"20px", color:'#fff'}} />
-                  </Box>
-                
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="#"
-                  target="_blank"
-                >
-                  <img src="assets/img/youtube.svg" />
-                </Link>
-              </li>
-              <li>
-                <Link to="https://LinkedIn.com/in/mineres-foundation" target="_blank">
-                  <img src="assets/img/LinkedIn.svg" />
-                </Link>
-              </li>
-              <li>
-                <Link to="#" target="_blank">
-                  <img src="assets/img/Exclude.svg" />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="#"
-                  target="_blank"
-                >
-                  <img src="assets/img/discord.svg" />
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    
       </div>
       <div className="blue-divider" />
       <div className="col-12 mt-4">
