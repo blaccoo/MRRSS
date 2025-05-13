@@ -32,7 +32,7 @@ function Community() {
 
       <div className="social-icons">
       <a href="https://twitter.com/Mineres_MRS" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-x-twitter" style={{ color: "#000000" }}></i>
+          <i className="fab fa-x-twitter" style={{ color: "#fff" }}></i>
         </a>
         <a href="https://t.me/mineres_mrs" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-telegram-plane" style={{ color: "#0088cc" }}></i>
@@ -66,7 +66,7 @@ function Community() {
               <div className="section-img h-100 mb-5">
               <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
               <img
-                          src="assets/foundation.jpeg"
+                          src="assets/img/foundation.jpg"
                           style={{ width: "100%", height: "100%", }}
                         />
               </Box>
@@ -156,25 +156,29 @@ function Community() {
               <div className="section-img h-100 mb-5">
               <Box  sx={{borderRadius:"1rem", padding:"1rem", backgroundColor:"#000" }}>
               <img
-                          src="assets/img/foundation.jpg"
+                          src="assets/img/scam.png"
                           style={{ width: "100%", height: "100%", }}
                         />
               </Box>
               </div>
             </div>
             <div className="content-section">
-              <h3>Report a Scam</h3>
-           <p>
-           In a decentralized world, trust is everything—and we take it seriously. While Web3 opens up incredible opportunities, it also attracts bad actors. The Mineres team is committed to protecting our users and preserving the integrity of our ecosystem.
-              </p>
-<p>
-If you see someone misusing the Mineres name, impersonating team members, promising unrealistic returns, or conducting suspicious activities related to our platform or token—report it immediately. We have a dedicated risk management and legal team that investigates each claim. You can submit reports anonymously, and we treat all information with confidentiality.  
-</p>
+  <h3>Report a Scam</h3>
+  <p>
+    In a decentralized world, trust is everything—and we take it seriously. While Web3 opens up incredible opportunities, it also attracts bad actors. The Mineres team is committed to protecting our users and preserving the integrity of our ecosystem.
+  </p>
+  <p>
+    If you see someone misusing the Mineres name, impersonating team members, promising unrealistic returns, or conducting suspicious activities related to our platform or token—report it immediately. We have a dedicated risk management and legal team that investigates each claim. You can submit reports anonymously, and we treat all information with confidentiality.  
+  </p>
+  <p>
+    Help us maintain a safe and honest environment for everyone. Together, we build a community that values security, accountability, and transparency.
+  </p>
+  <p>
+    📩 <strong>To report a scam, email us at:</strong>{' '}
+    <a href="mailto:fraud@mineres.org">fraud@mineres.org</a>
+  </p>
+</div>
 
-<p>
-Help us maintain a safe and honest environment for everyone. Together, we build a community that values security, accountability, and transparency.
-</p>
-            </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-none">
             <div className="section-img h-100" >
