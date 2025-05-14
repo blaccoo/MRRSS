@@ -138,7 +138,7 @@ Mineres is transforming this industry with a decentralized, crypto-powered platf
         <section id="our-vision">
           <div className="container">
             <h1 className="mineres-main-heading text-center mb-4">
-            MINERES (MRS) - THE FUTURE OF MINERALS TRADE WITH CRYPTO
+            MINERES (MRS) - THE FUTURE OF MINERAL TRADE WITH CRYPTO
             </h1>
           
             <div className="mineres-primary-text px-lg-5 font-20 d-block">
@@ -167,7 +167,7 @@ Mineres is transforming this industry with a decentralized, crypto-powered platf
                     <h4 className="vision-title mt-4 mb-4">    The Mineres Marketplace</h4>
                     <p className="vision-info mb-5">
                    
-                    A decentralized digital platform that connects verified miners directly with industrial buyers, eliminating middlemen and ensuring transparent, fair trade. Buyers gain access to ethically sourced metals, while miners in emerging markets gain global exposure and better pricing.
+                    A decentralized digital platform that connects verified miners directly with industrial buyers, eliminating unnecessary middlemen and ensuring transparent, fair trade. Buyers gain access to ethically sourced metals, while miners in emerging markets gain global exposure and better pricing.
                     </p>
              
                   </div>
